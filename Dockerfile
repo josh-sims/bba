@@ -1,6 +1,6 @@
 FROM node:current-slim
 
-WORKDIR sites/bba
+WORKDIR /Users/jsims/sites/bba
 COPY package.json .
 RUN npm install
 
